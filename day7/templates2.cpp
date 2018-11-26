@@ -11,7 +11,7 @@ typ1 readFromStream(std::ifstream &stream, char *dest)
     }
     else
     {
-        std::runtime_error("Could not read from file");
+        throw std::runtime_error("Could not read from file");
     }
 }
 
