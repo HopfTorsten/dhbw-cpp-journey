@@ -16,5 +16,9 @@ int main()
                   << "\t Your seat is number " << i << std::endl;
     }
 
+    for(char a='A';a<='Z';++a){
+        printf("%c\n",a);
+    }
+
     return 0;
 }
