@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <iostream>
 
 int main()
 {
@@ -44,6 +44,7 @@ int main()
         // do smth
     }
 
-   
+   char x[] ="";
+   std::cin >> 
 
 }
