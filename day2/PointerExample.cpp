@@ -1,5 +1,11 @@
 #include <iostream>
 
+typedef struct s_struct{
+    int x;
+    int y;
+    int z;
+} mystruct;
+
 int main()
 {
     long x = 9532523;
@@ -44,7 +50,8 @@ int main()
         // do smth
     }
 
-   char x[] ="";
-   std::cin >> 
+
+
+
 
 }
