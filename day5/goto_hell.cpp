@@ -11,7 +11,6 @@ int do_something_else()
     printf("Complex stuff, too\n");
     return 0;
 }
-
 int main()
 {
     int err = do_something();
