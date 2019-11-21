@@ -1,0 +1,13 @@
+nullptr.cpp:7:5: error: call to 'f' is ambiguous
+    f(NULL);
+    ^
+nullptr.cpp:2:6: note: candidate function
+void f(int x) { std::cout << "f(int)" << std::endl; }
+     ^
+nullptr.cpp:3:6: note: candidate function
+void f(bool x) { std::cout << "f(bool)" << std::endl; }
+     ^
+nullptr.cpp:4:6: note: candidate function
+void f(void *x) { std::cout << "f(void*)" << std::endl; }
+     ^
+1 error generated.
